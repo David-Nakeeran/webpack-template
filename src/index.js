@@ -1,9 +1,4 @@
-import './styles/style.css';
-import generateJoke from "./generateJoke";
-import laughing from './assets/laughing.svg';
+import './styles/style.css'
+'use strict';
 
-const laughImg = document.getElementById('laughImg')
-
-laughImg.src = laughing;
-console.log(generateJoke());
-console.log(1);
+console.log('Hello world');
